@@ -5,7 +5,7 @@ programa
 	{
 	//Declare as variáveis 
 		real a, b, c
-		inteiro aux2, aux3
+		real aux2, aux3
 		real delta, aux = 0
 
 	//Entrada com as variáveis
