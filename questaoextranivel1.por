@@ -8,12 +8,12 @@ programa
 		escreva("Informe o número de elementos do vetor. \n")
 		leia(numeroDeElementos)
 
-		escreva("Informe os elementos do vetor.\n")
+		escreva("Informe os elementos do vetor:\n")
 		para(i = 0; i < numeroDeElementos; i++) 
 		{
 			leia(vetor[i])
 		}
-		escreva("Os elementos do vetor são.\n")
+		escreva("Os elementos do vetor são:\n")
 		para(i = 0; i < numeroDeElementos; i++) 
 		{
 			escreva(" ",vetor[i])
@@ -58,7 +58,7 @@ programa
 				}
 			}
 		}
-		escreva("\n O resulatdo do fatorial ordenado.\n")
+		escreva("\n O resulatdo do fatorial ordenado é:.\n")
 		para(i = 0; i < k; i++) 
 		{
 			escreva(" ",vetorFatorial[i])
