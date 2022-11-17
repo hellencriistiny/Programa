@@ -20,12 +20,12 @@ programa
 		}
 		escreva("\n")
 		
-		//resolve o fatorial de cada elemento e armazena no vetor fatorial
+		//resolver o fatorial de cada elemento e armazenar no vetor fatorial
 		para(i = 0; i < numeroDeElementos; i++)
 		{
 			se(vetor[i] < 0) 
 			{
-				escreva("O numero na posição [",i,"] e menor que zero, logo não sera considerado.\n")
+				escreva("O número na posição [",i,"] e menor que zero, logo não sera considerado.\n")
 				
 			} senao se(vetor[i] == 0)
 			{
