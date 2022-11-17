@@ -7,10 +7,10 @@ programa
 		inteiro matriz[TAM][TAM], vetorImpar[TAM], vetorPar[TAM], linhas, colunas
 		inteiro i, j, k = 0, h = 0, numeroDeElementosImpar, numeroDeElementosPar, aux
 
-		escreva(" Informe o numero de linhas da matriz.\n")
+		escreva(" Informe o número de linhas da matriz.\n")
 		leia(linhas)
 
-		escreva(" Informe o numero de colunas da matriz.\n")
+		escreva(" Informe o número de colunas da matriz.\n")
 		leia(colunas)
 
 		escreva(" Informe os valores dos do vetor.\n")
@@ -65,7 +65,7 @@ programa
 		}
 		escreva("\n")
 		
-		// ordena os vetor par em ordem crescente
+		//ordenar os vetor par em ordem crescente
 		para(i = 0; i < numeroDeElementosPar; i++) 
 		{
 			para(j = 0; j < numeroDeElementosPar - 1; j++) 
@@ -79,7 +79,7 @@ programa
 			}
 		}
 
-		// ordena os vetor impar em ordem crescente
+		//ordenar os vetor impar em ordem crescente
 		para(i = 0; i < numeroDeElementosImpar; i++) 
 		{
 			para(j = 0; j < numeroDeElementosImpar - 1; j++) 
@@ -93,14 +93,14 @@ programa
 			}
 		}
 
-		escreva(" Os elementos pares ordenados.\n")
+		escreva("Os elementos pares ordenados.\n")
 		para(i = 0; i < numeroDeElementosPar; i++) 
 		{
 			escreva("  ",vetorPar[i])
 		}
 		escreva("\n")
 
-		escreva(" Os elementos impares ordenados.\n")
+		escreva("Os elementos impares ordenados.\n")
 		para(i = 0; i < numeroDeElementosImpar; i++) 
 		{
 			escreva("  ",vetorImpar[i])
