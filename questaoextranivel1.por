@@ -45,7 +45,7 @@ programa
 			}
 		}
 		
-		//ordena o valor do fatorial em ordem crescente
+		//colocar o valor do fatorial em ordem crescente
 		para(i = 0; i < k; i++) 
 		{
 			para(j = 0; j < k - 1; j++) 
